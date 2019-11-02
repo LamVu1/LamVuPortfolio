@@ -1,2 +1,2 @@
 # LamVuPortfolio
-[link](lamvu.me)
+[Please visit lamvu.me](https://lamvu.me)
