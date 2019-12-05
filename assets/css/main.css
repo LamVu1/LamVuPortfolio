@@ -3577,7 +3577,8 @@ input, select, textarea {
 .item-div{
 	display: flex; 
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: flex-start;
+	padding-bottom: 15px;
 }
 
 .item-div a{
@@ -3602,4 +3603,64 @@ input, select, textarea {
     font-size: 28px;
 	font-weight: bold;
 	margin: 0;
+}
+
+.Project-Items{
+	text-align: left;
+}
+
+.Project-Items li{
+	padding-bottom: 5px;
+}
+
+
+
+.col-4 p{
+	text-align: left;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+#two {
+	padding: 0;
+}
+
+.major-icons{
+	list-style: none;
+    padding-left: 0;
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 0;
+}
+.icon-div{
+	padding-left: 250px !important;
+}
+
+.HTML{
+	color:#EF652A;
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0;
+}
+
+#HTML{
+	color: #EF652A;
+}
+
+@media screen and (max-width: 980px) {
+
+	.icon-div {
+		padding-left: 80px !important;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.icon-div {
+		padding-left: 200px !important;
+	}	
+
 }
